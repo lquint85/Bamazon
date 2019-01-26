@@ -1,6 +1,6 @@
 var inquirer = require("inquirer");
 var mysql = require("mysql");
-require("console.table");
+var cTable = require("console.table");
 // require("dotenv");
 
 //define connection
@@ -11,11 +11,11 @@ var connection = mysql.createConnection({
     port: 3306,
 
     // Your username
-    user: "root",
+    user: "Luis2018",
 
     // Your password
     // will connect to new Host
-    password: "password",
+    password: "Luis2018",
     database: "bamazon_db"
 });
 //call and actually connect to database
