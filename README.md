@@ -12,9 +12,12 @@ An Amazon-like storefront where a Customer can make purchases and where a Manage
 https://lquint85.github.io/Bamazon/
 
 # Screeshots 
+
 ![](node_pics/bamazon1.png)
 
 ![](node_pics/bamazon2.png)
+
+![](node_pics/bamazon2.jpg)
 
 
 
