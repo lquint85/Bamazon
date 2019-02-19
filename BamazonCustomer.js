@@ -198,11 +198,5 @@ function findItem() {
     });
 }
 
-// function updateInventory(){
-//     connection.query(
-//                 "UPDATE products SET stock_quantity=" + newQuantity + " WHERE id=" + productID, function(err, res) {
-//               console.log(res);
-//             });
-// }
 
 // process.exit();
