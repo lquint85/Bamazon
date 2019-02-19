@@ -94,7 +94,7 @@ function findItem() {
                 // console.log(productID);
                
                 var productName = results.productName;
-                connection.query("SELECT * FROM bamazon_db.items WHERE id=" + productID,function (err, results) {
+                connection.query("SELECT * FROM bamazon_db.items WHERE id=" + productID, function (err, results) {
                     console.log("----------------------------------------------------------");
                         
                     if (err) throw err;
